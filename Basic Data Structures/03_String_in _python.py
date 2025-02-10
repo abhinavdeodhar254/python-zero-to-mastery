@@ -80,11 +80,24 @@ slice(senternce[0::3])
 #0-H
 #2-l  #2 is the third element
 
+#in case we need the last element from the string we can use -1.
+str="Hanuman"
+
+str[-1] #output "n"
+
+#We can also slice the string using the reverse indexing. 
+str[-1:]
+
+#this is the point to remember that string transverse will always happen from left toright. 
+# This means that it will start from the location of -1 (v) and go to left.
+#but there is no left charecter after "v" hence it will just return "v" in output.
+
+#to reverse the string we  will use the following syntax
+
+str[::-1]
+
+#what is says is that transverse all the string but jump with one location starting from -1 index. this will return a reverse string.
 
 
 
 
-
-
-
-#
